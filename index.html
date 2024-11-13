@@ -65,6 +65,7 @@
 
         <label for="activityLevel">Activity Level:</label>
         <select id="activityLevel" name="activityLevel" required>
+          <option value="" disabled selected>-- Select --</option>
           <option value="1.2">
             Sedentary (little to no exercise, desk job) - 1.2
           </option>
@@ -86,6 +87,7 @@
         </select>
 
         <input type="submit" value="Calculate" />
+        <input type="button" value="Clear" id="clearButton" />
       </form>
 
       <!-- BMI and Metabolic Rate Calculation -->
